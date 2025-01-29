@@ -1,0 +1,70 @@
+/* Main container style */
+.container {
+    max-width: 600px; /* Limits the width of the chat component */
+    margin: 0 auto; /* Centers the component in the viewport */
+    padding: 20px; /* Adds padding around the content */
+    border: 1px solid #ccc; /* Adds a light border */
+    border-radius: 8px; /* Rounds the corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    background-color: white; /* Sets background to white */
+}
+
+/* Headings */
+h1 {
+    text-align: center; /* Centers the heading */
+    color: #333; /* Darker text color for better readability */
+}
+
+/* Form styles */
+form {
+    display: flex; /* Makes the input and button align horizontally */
+    flex-direction: column; /* Stacks the elements vertically */
+    gap: 10px; /* Adds space between form elements */
+    margin-top: 20px; /* Adds space before the form */
+}
+
+input[type="text"] {
+    padding: 10px; /* Adds padding inside the input */
+    border: 1px solid #ccc; /* Light border for input */
+    border-radius: 4px; /* Rounds the corners of the input */
+    font-size: 16px; /* Sets font size */
+}
+
+/* Button styles */
+button {
+    padding: 10px; /* Adds padding to the button */
+    border: none; /* Removes default border */
+    border-radius: 4px; /* Rounds the corners of the button */
+    background-color: #007bff; /* A nice blue color */
+    color: white; /* White text color */
+    font-size: 16px; /* Sets font size */
+    cursor: pointer; /* Changes cursor to pointer */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darkens the button on hover */
+}
+
+/* Enhanced response text styling */
+.response {
+    margin-top: 20px; /* Adds space above response text */
+    padding: 15px; /* Adds padding inside the response box */
+    border-left: 5px solid #007bff; /* Left border for emphasis */
+    border-radius: 4px; /* Rounds the corners */
+    background-color: #f1f8ff; /* Light blue background */
+    color: #333; /* Darker text color */
+    font-size: 16px; /* Consistent font size */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Small shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Slight scale effect on response text on hover */
+.response:hover {
+    transform: scale(1.02); /* Slightly enlarges the response box */
+}
+
+/* Word-break to prevent overflow */
+p {
+    word-wrap: break-word; /* Prevents overflow of long words */
+    margin: 0; /* Removes default margin for paragraphs */
+}
